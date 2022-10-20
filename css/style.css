@@ -14,10 +14,6 @@
   padding-top: 15pt;
 }
 
-.mdl-textfield,
-mdl-js-textfield {
-}
-
 /* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
 */
 .mdl-ripple {
