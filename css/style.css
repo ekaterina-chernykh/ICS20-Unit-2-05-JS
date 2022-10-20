@@ -40,3 +40,17 @@ p {
   font-size: 1.5rem;
   padding-top: 5pt;
 }
+
+h3 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
+}
+
+h6 {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
+}
