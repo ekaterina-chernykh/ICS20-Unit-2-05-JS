@@ -13,9 +13,11 @@ function calculate() {
 
   // process
   const pay = worked * rate
-  const tax = pay * .13
+  const tax = pay * 0.13
 
   // output
-  document.getElementById("pay").innerHTML = "Your pay will be $" + pay.toFixed(2)
-  document.getElementById("tax").innerHTML = "The govenment will take $" + tax.toFixed(2)
+  document.getElementById("pay").innerHTML =
+    "Your pay will be $" + pay.toFixed(2)
+  document.getElementById("tax").innerHTML =
+    "The govenment will take $" + tax.toFixed(2)
 }
