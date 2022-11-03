@@ -4,16 +4,20 @@
 
 "use strict"
 /**
- * This function calculates XXX.
+ * This function calculates tax.
  */
 function calculate() {
+  
+  // constant
+  const TAX_RATE = 0.18
+  
   // input
   const worked = parseFloat(document.getElementById("number-of-hours").value)
   const rate = parseFloat(document.getElementById("hourly-rate").value)
 
   // process
-  const pay = worked * rate * (1 - 0.18)
-  const tax = worked * rate * 0.18
+  const pay = worked * rate * (1 - TAX_RATE)
+  const tax = worked * rate * TAX_RATE
 
   // output
   document.getElementById("pay").innerHTML =
