@@ -7,10 +7,9 @@
  * This function calculates tax.
  */
 function calculate() {
-  
   // constant
   const TAX_RATE = 0.18
-  
+
   // input
   const worked = parseFloat(document.getElementById("number-of-hours").value)
   const rate = parseFloat(document.getElementById("hourly-rate").value)
